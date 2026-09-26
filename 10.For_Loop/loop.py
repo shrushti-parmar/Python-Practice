@@ -162,6 +162,9 @@
 # print(count)
 
 #26
+name="shrushti"
+for i in name:
+    print(i, end=" ")
 
 
 
