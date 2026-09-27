@@ -246,6 +246,24 @@
 
 
 
+# n=int(input("Enter no of rows: "))
+# for i in range(1,n+1):
+#     for j in range(n,i-1,-1):
+#         print(j, end=" ")
+#     print()
 
+# n=int(input("Enter no: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         a=(i,j)
+#         print(a, end=" ")
+#     print()
 
+a="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+for i in range(1):
+    for j in range(0,13):
+        print(a[j], end=" ")
+        for k in range(14,26):
+            print(a[k], end=" ")
+    print()
 
